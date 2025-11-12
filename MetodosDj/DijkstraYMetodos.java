@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class DijkstraYMetodos {
 
     // === ALGORITMO DE DIJKSTRA ===
-    public static void dijkstra(int[][] grafo, int origen) {
+    public static int[] dijkstra(int[][] grafo, int origen) {
         int n = grafo.length;
         int[] distancia = new int[n];
         boolean[] visitado = new boolean[n];
