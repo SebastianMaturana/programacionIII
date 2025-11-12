@@ -1,2 +1,0 @@
-# programacionIII
-Curso Programación III
