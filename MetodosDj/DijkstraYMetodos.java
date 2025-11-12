@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class DijkstraYMetodos {
 
-    // ===== ALGORITMO DE DIJKSTRA =====
+    // ==== ALGORITMO DE DIJKSTRA ====
     public static void dijkstra(int[][] grafo, int origen) {
         int n = grafo.length;
         int[] distancia = new int[n];
